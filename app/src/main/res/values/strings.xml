@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">触控坐标测试</string>
+    <string name="coordinateX">X坐标为：</string>
+    <string name="coordinateY">Y坐标为：</string>
+    <string name="hint1">触摸区域显示坐标</string>
+    <string name="showX">X坐标为：</string>
+    <string name="showY">Y坐标为：</string>
+</resources>
