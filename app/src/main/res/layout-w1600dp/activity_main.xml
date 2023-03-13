@@ -35,7 +35,7 @@
     <TextView
         android:id="@+id/hint1"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="match_parent"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="35dp"
         android:layout_marginBottom="50dp"
@@ -46,9 +46,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="108:192"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/corrY"
- />
+        app:layout_constraintVertical_bias="0.18" />
 
 
 </android.support.constraint.ConstraintLayout>

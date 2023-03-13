@@ -29,8 +29,10 @@ public class MainActivity extends AppCompatActivity {
 
         public boolean onTouch(View v,MotionEvent event) {
 
-            int x = (int) event.getX();
-            int y = (int) event.getY();
+            int x1 = (int) event.getX();
+            int y1 = (int) event.getY();
+            int y = 1920*y1/touchArea.getHeight();
+            int x = 1080*x1/touchArea.getWidth();
 
             switch (event.getAction()) {
                 case MotionEvent.ACTION_DOWN:
